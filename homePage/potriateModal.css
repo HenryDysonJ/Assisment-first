@@ -1,0 +1,122 @@
+* {
+  font: normal normal Montserrat;
+}
+.modal-header {
+  border: none;
+}
+.image-pm {
+  text-align: center;
+}
+.btn-close {
+  border-radius: 50px;
+  font-size: 10px;
+  background-color: rgb(204, 206, 206);
+}
+.p-top {
+  padding: 30px;
+}
+.product-image {
+  height: 167px;
+  width: 133px;
+  margin-left: 20%;
+}
+.arrow {
+  font-size: 15px;
+  margin-top: 50px;
+}
+/* bottom*/
+.dollar-p {
+  color: #023047;
+  font-size: 18px;
+  font-weight: 600;
+  list-style: none;
+}
+.p-rating {
+  float: left;
+}
+.p-li {
+  list-style: none;
+  color: #ffb703;
+  font-size: 10px;
+  display: flex;
+}
+
+.rate-point {
+  color: #b3c1c8;
+  font-size: 12px;
+}
+.buy-btn-p {
+  float: right;
+  border: none;
+  background-color: #219ebc;
+  padding: 11px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: -33px;
+}
+/*scrol*/
+.stricy {
+  position: static;
+}
+.Product-detail-p {
+  height: 30vh;
+  overflow-y: scroll;
+}
+.Product-detail-p::-webkit-scrollbar {
+  display: none;
+}
+
+/*colors */
+.color-text {
+  color: #697d88;
+  font-size: 14px;
+  margin-left: 0px;
+}
+.disciption-p {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  text-align: left;
+  margin-left: 11vh;
+  color: #697d88;
+}
+.color-circle {
+  height: 14px;
+  width: 14px;
+  border-radius: 50px;
+  margin-top: 5px;
+  border: 1px solid #cecfcf;
+}
+#black {
+  background-color: #2d3735;
+}
+#blue {
+  background-color: #219ebc;
+}
+#white {
+  background-color: #e9ecef;
+}
+.T-title {
+  font-size: 14px;
+  color: #023047;
+  font-weight: 500;
+  text-align: left;
+}
+/*Display*/
+.display-condent {
+  height: 124px;
+  width: 170px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  color: #4e6e7e;
+  
+}
+.display-condent p {
+  line-height: 12px;
+}
+.p-text {
+  font-size: 14px;
+  color: #4e6e7e;
+
+}

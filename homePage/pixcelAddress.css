@@ -1,0 +1,181 @@
+* {
+  font: normal normal Montserrat;
+}
+.modal-header {
+  border: none;
+}
+.btn-close {
+  border-radius: 50px;
+  background-color: #cbcdcf;
+  max-height: 7px;
+  max-width: 8px;
+  font-size: 10px;
+}
+.pixcel-name {
+  height: 24px;
+  text-align: left;
+}
+.name {
+  font-size: 20px;
+  color: #023047;
+  font-weight: 600;
+}
+.pixcel-detail {
+  max-height: 100%;
+  max-width: 100%;
+  background: hsl(0, 0%, 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid #d1d2d4;
+  border-radius: 4px;
+  justify-content: space-around;
+}
+.add-address {
+  max-height: 100%;
+  max-width: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d1d2d4;
+  border-radius: 4px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.image {
+  text-align: center;
+}
+.ad-snap{
+  height: 40px;
+  width: 40px;
+}
+.name-px {
+  color: #023047;
+  font-size: 16px;
+  font-weight: 600;
+}
+.name-text {
+  color: #B3C1C8;
+  font-size: 12px;
+}
+.a-text{
+  color: #B3C1C8;
+  font-size: 12px;
+}
+.qty{
+  color:#B3C1C8;
+  font-size: 12px;
+}
+.add-name{
+ color: #023047;
+ font-size: 16px;
+ font-weight: 600;
+
+}
+#ad-saveAdd{
+  display: none;
+}
+.edit{
+  font-size: 16px;
+  color: #FB8500;
+  font-weight: 600;
+  border: none;
+  background-color: #ffff;
+  float: right;
+  margin-top: 20px;
+}
+.ad-detail{
+  border: 1px solid #b3c1c8 ;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.a-dollar{
+  color: #023047;
+  font-size: 12px;
+  font-weight: 550;
+}
+section {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 4px;
+  align-items: center;
+  justify-items: center;
+}
+.add-btn {
+  border: none;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: #b3c1c8;
+}
+.save-btn {
+  border: none;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  font-size: 12px;
+  float: right;
+  margin-right: 10px;
+  color: #219ebc;
+  font-weight: 700;
+  margin-top: -20px;
+}
+
+
+#slect-lab {
+  padding: 8px;
+  border-color: #e9ecef;
+  border-radius: 2px;
+  color: #b3c1c8; 
+  font-size: 12px;
+}
+label {
+  font-size: 12px;
+  color: #4e6e7e;
+  text-align: left;
+}
+.bg-input:hover {
+  background-color: #e2f0e5;
+}
+#input{
+  font-size: 12px;
+  color: #4e6e7e;
+}
+#input:focus{
+  color: #023047;
+}
+
+/*invoice summary*/
+.invoice-summary {
+  max-width: 100%;
+  max-height: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid#d1d2d4;
+  border-radius: 4px;
+  padding: 10px;
+}
+.invice-text {
+  color: #b3c1c8;
+  font-size: 12px;
+  position: relative;
+}
+.in-text {
+  margin-top: 12px;
+  margin-left: 21px;
+  line-height: 30px;
+}
+
+.bill-amt {
+  color: #023047;
+  font-weight: 700;
+}
+.button-a {
+  text-align: center;
+  background-color: #219ebc;
+  margin-left: 20px;
+  margin-right: 40px;
+  border-radius: 3px;
+  margin-top: 6px;
+}
+.pay-btn {
+  border: none;
+  background-color: #219ebc;
+  padding: 1vh;
+}

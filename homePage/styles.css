@@ -1,0 +1,280 @@
+* {
+  font: normal normal Montserrat;
+}
+.google-logo {
+  position: relative;
+}
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #d3d7d9;
+}
+.logo {
+  height: 32px;
+  width: 32px;
+  margin-left: 30px;
+}
+
+/*----Navs bar--- */
+.nav-item {
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #4e6e7e;
+  opacity: 1;
+  height: 18px;
+  width: 89px;
+}
+.prod {
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #219ebc;
+  opacity: 3;
+  height: 18px;
+  width: 89px;
+  list-style-type: disc;
+}
+.cr-btn {
+  border: 1px solid #219ebc;
+  border-radius: 4px;
+  margin-right: 4vh;
+  float: right;
+  background-color: #ffffff;
+  color: #219ebc;
+  font-size: 14px;
+  font-weight: 600;
+  height: 42px;
+  width: 150px;
+}
+#photo {
+  display: none;
+}
+.profile {
+  border: solid #219ebc 1.1px;
+  max-height: 45px;
+  width: 5rem;
+  border-radius: 20px;
+  float: right;
+  padding: 5px;
+  display: inline-flex;
+  position: relative;
+}
+.profile-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  margin-top: -3px;
+}
+#arrow {
+  transform: rotate(-90deg);
+  list-style: none;
+  font-size: 18px;
+  color: #9aacb5;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+@media only screen and (max-width: 800px) {
+  .Phones-top {
+    max-height: 270px;
+    max-width: 200px;
+    background-color: #e3f7f4;
+    text-align: center;
+  }
+  .filter {
+    max-height: 659px;
+    max-width: 100px;
+    list-style: none;
+    overflow: hidden;
+    margin-top: 1rem;
+  }
+}
+/* -----Filter side------*/
+.filter {
+  max-height: 659px;
+  max-width: 299px;
+  list-style: none;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+.fix {
+  position: fixed;
+}
+#fs {
+  color: #219ebc;
+}
+.list-item {
+  margin-left: 0px;
+  list-style: none;
+  display: inline-flex;
+  text-align: left;
+}
+.filter-name {
+  margin-inline-start: 10px;
+  color: #9aacb5;
+  font-size: 14px;
+}
+.line {
+  color: #9aacb5;
+}
+.fil-fix{
+   position: sticky;
+}
+
+/*------ phone card -----*/
+.phone-card{
+  margin-top: 2rem !important; 
+}
+.Phones-top {
+  max-height: 220px;
+  max-width: 300px;
+  background-color: #e3f7f4;
+  text-align: center;
+}
+.phones-bottom {
+  max-height: 60px;
+  max-width: 300px;
+}
+#product1 {
+  background-color: #e3f7f4;
+  padding: 15px;
+}
+#product2 {
+  background-color: #ebf5f3;
+  padding: 15px;
+}
+#product3 {
+  background-color: #f7f7ed;
+  padding: 15px;
+}
+.image {
+  max-height: 157px;
+  max-width: 125px;
+}
+.phone-pixel {
+  max-height: 22px;
+  color: #023047;
+  font-size: 16px;
+  letter-spacing: 0px;
+  font-weight: 650;
+}
+.dollar {
+  max-height: 10px;
+  font-size: 18px;
+  color: #023047;
+  float: right;
+  font-weight: 490;
+  margin-top: -25px;
+}
+.text {
+  max-height: 15px;
+  font-size: 12px;
+  color: #b3c1c8;
+}
+
+.rate-point {
+  font-size: 10px;
+  max-height: 30px;
+  color: #b3c1c8;
+  list-style: none;
+  margin-top: -4px;
+}
+.stars {
+  font-size: 11px;
+  color: #ffb703;
+  display: inline-flex;
+  float: right;
+}
+.hover-cont {
+  position: relative;
+  padding: 0px;
+  margin-left: 0px;
+  margin-top: -5px;
+}
+.hover-part {
+  position: absolute;
+  top: -20px;
+  padding: 0px;
+}
+
+.view-link {
+  font-size: 12px;
+  color: #219ebc;
+  list-style: none;
+  border: none;
+  background-color: #ffffff;
+  padding: 0px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.buy {
+  text-align: center;
+  border-radius: 2px;
+  max-width: 100%;
+  max-height: 40vh;
+}
+.buy-btn {
+  border: none;
+  background-color: #219ebc;
+  color: #ffffff;
+  font-size: 11px;
+  border-radius: 3px;
+  float: right;
+  margin-top: -25px;
+  padding: 1vh;
+}
+
+.view {
+  display: none;
+}
+.hide {
+  display: inline-block;
+}
+.hoverproduct:hover .hide {
+  background-color: #219ebc;
+  display: none;
+}
+.hoverproduct:hover .view {
+  display: inline-block;
+}
+.foot {
+  display: inline-flex;
+  margin-top: 5rem;
+  margin-left: 16rem;
+}
+.end-prod {
+  list-style: none;
+  display: inline-flex;
+  position: absolute;
+  margin-top: 10px;
+}
+.end {
+  color: #ccd6da;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.img-star {
+  max-height: 16px;
+  max-width: 18px;
+    margin-top: 10px;
+}
+.footer {
+  border-top: 1.3px solid #d3d5d6;
+}
+.foot-text {
+  max-height: 15px;
+  font-size: 12px;
+  color: #b3c1c8;
+}
+.footer p {
+  margin-top: 2vh;
+}
+.check {
+  color: #219ebc;
+}
+
+input[type="checkbox"] {
+  accent-color: #219ebc;
+}
+
+/*===============*/

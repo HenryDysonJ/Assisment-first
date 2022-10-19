@@ -1,0 +1,96 @@
+.tp {
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  left: 0px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.login-image {
+  background-color: #f9fbfe;
+}
+.image {
+  height:100vh;
+  width: 100%;
+}
+.login-bg{
+
+}
+.google-logo {
+  position: relative;
+}
+.logo {
+  height: 32px;
+  width: 32px;
+  z-index: 1;
+  position: absolute;
+  top: 19px;
+  left: 25px;
+}
+
+
+/* lpgin form*/
+.login-content{
+  margin-top: 15%;
+}
+.lab-box {
+  height: 80px;
+}
+.input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e4e8ee;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.l-title {
+  text-align: left;
+  font: normal normal 800 24px/29px Montserrat;
+  letter-spacing: 0.14px;
+  color: #091b29;
+  opacity: 1;
+}
+.sub-title {
+  text-align: left;
+  font: normal normal medium 18px/22px Montserrat;
+  letter-spacing: 0.11px;
+  color: #bbbbbb;
+  opacity: 1;
+}
+.form-lable {
+  color: rgba(152, 160, 172, 1);
+  font-size: 14px;
+  text-align: left;
+  height: 15px;
+}
+input {
+  background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+  border: 1px solid rgba(228, 232, 238, 1);
+}
+.pass{
+  position: relative;
+}
+.visib{
+  position: absolute;
+  top: 35px;
+  right:20px;
+  cursor: pointer;
+  color: lightgray;
+}
+.btns {
+  background-color: rgba(33, 158, 188, 1);
+  border-radius: 4px;
+  text-align: center;
+  margin-top:4vh;
+  padding: 7px;
+}
+.create {
+  font-size: 14px;
+  border: none;
+  color: #ffffff;
+  background-color: rgba(33, 158, 188, 1);
+}
+form i {
+ margin-left: -30px; 
+  cursor: pointer;
+}

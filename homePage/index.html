@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="potriateModal.css" />
+    <link rel="stylesheet" href="pixcelAddress.css" />
+    <link rel="stylesheet" href="landscapeModal.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar sticky-top navbar-expand-md">
+      <div class="container-fluid row">
+        <div class="col google-logo">
+          <img src="/assert/Mask Group 1@2x.png" class="logo" />
+        </div>
+        <div class="col">
+          <ul class="navbar-nav">
+            <li class="nav-item">Home</li>
+            <li class="prod">Products</li>
+            <li class="nav-item">Service</li>
+            <li class="nav-item">About us</li>
+          </ul>
+        </div>
+        <div class="col">
+          <button class="cr-btn btn-outline-info" id="btn">
+            Create Account
+          </button>
+          <div class="profile" id="photo">
+            <img src="/assert/black.png" class="profile-img" />
+            <p class="arrow-icon" id="arrow">&#10092;</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container ">
+      <div class="row">
+        <div class="col-sm-2 sticky-top">
+          <div class="filter fix">
+            <p class="filter-name">Filters</p>
+            <div class="line">
+              <input type="checkbox" class="checkbox" />
+              <label class="filter-name" id="fs">Phones</label>
+            </div>
+            <div class="line">
+              <input type="checkbox" class="checkbox" />
+              <label class="filter-name">Headphones</label>
+            </div>
+            <div class="line">
+              <input type="checkbox" class="checkbox" />
+              <label class="filter-name">Accessories</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm col-md-10 phone-card">
+          <div class="row">
+            <div class="col-lg-4 col-md col-sm-12 product-card hoverproduct">
+              <!-- 1st product-->
+
+              <div class="col-sm Phones-top" id="product1">
+                <img src="/assert/Mask Group 12.png" class="image" />
+              </div>
+              <div class="col-sm phones-bottom">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p class="phone-pixel">Pixel 5</p>
+                  </div>
+                  <div class="col-sm-6"><p class="dollar hide">$ 499</p></div>
+                </div>
+                <div class="row hover-cont">
+                  <div class="col hide">
+                    <p class="text">Smart,helpful.</p>
+                  </div>
+                  <div class="col hide">
+                    <div class="stars">
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star-half star"></li>
+                      <li class="rate-point">&#8333;1.2k&#8334;</li>
+                    </div>
+                  </div>
+                  <div class="col hover-part view">
+                    <button
+                      type="button"
+                      class="view-link"
+                      data-bs-toggle="modal"
+                      data-bs-target="#potriateModal"
+                    >
+                      View Product
+                    </button>
+                    <div class="col buy">
+                      <button
+                        class="buy-btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#addresPixcel"
+                      >
+                        Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md col-sm-12 product-card hoverproduct">
+              <!-- 2nd product-->
+
+              <div class="col-sm Phones-top" id="product2">
+                <img src="/assert/Group 21@2x.png" class="image" />
+              </div>
+              <div class="col-sm phones-bottom">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p class="phone-pixel">Pixel 6</p>
+                  </div>
+                  <div class="col-sm-6"><p class="dollar hide">$ 699</p></div>
+                </div>
+                <div class="row hover-cont">
+                  <div class="col-sm-6 hide">
+                    <p class="text">Smart</p>
+                  </div>
+                  <div class="col-sm-6 hide">
+                    <div class="stars">
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star-half star"></li>
+                      <li class="rate-point">&#8333;1.2k&#8334;</li>
+                    </div>
+                  </div>
+                  <div class="col hover-part view">
+                    <button
+                      type="button"
+                      class="view-link"
+                      data-bs-toggle="modal"
+                      data-bs-target="#landscapeModal"
+                    >
+                      View Product
+                    </button>
+                    <div class="col-sm-12 buy">
+                      <button
+                        class="buy-btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#addresPixcel"
+                      >
+                        Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md col-sm-12 product-card hoverproduct">
+              <!-- 3rd product-->
+              <div class="col-sm Phones-top" id="product3">
+                <img src="/assert/pixel6.jpg" class="image" />
+              </div>
+              <div class="col-sm phones-bottom">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p class="phone-pixel">Pixel 6 Pro</p>
+                  </div>
+                  <div class="col-sm-6"><p class="dollar hide">$ 699</p></div>
+                </div>
+                <div class="row hover-cont">
+                  <div class="col-sm-6 hide">
+                    <p class="text">powerful</p>
+                  </div>
+                  <div class="col-sm-6 hide">
+                    <div class="stars">
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star-half star"></li>
+                      <li class="rate-point">&#8333;1.2k&#8334;</li>
+                    </div>
+                  </div>
+                  <div class="col hover-part view">
+                    <a href="" class="view-link">View Product</a>
+                    <div class="col-sm-12 buy">
+                      <button
+                        class="buy-btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#addresPixcel"
+                      >
+                        Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-4 col-md col-sm-3 product-card hoverproduct">
+              <!-- 4th product-->
+              <div class="col-sm Phones-top" id="product3">
+                <img src="/assert/pixel6.jpg" class="image" />
+              </div>
+              <div class="col-sm phones-bottom">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p class="phone-pixel">Pixel 6 Pro</p>
+                  </div>
+                  <div class="col-sm-6"><p class="dollar hide">$ 699</p></div>
+                </div>
+                <div class="row hover-cont">
+                  <div class="col-sm-6 hide">
+                    <p class="text">powerful</p>
+                  </div>
+                  <div class="col-sm-6 hide">
+                    <div class="stars">
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star-half star"></li>
+                      <li class="rate-point">&#8333;1.2k&#8334;</li>
+                    </div>
+                  </div>
+                  <div class="col hover-part view">
+                    <a href="" class="view-link">View Product</a>
+                    <div class="col-sm-12 buy">
+                      <button
+                        class="buy-btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#addresPixcel"
+                      >
+                        Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md col-sm-3 product-card hoverproduct">
+              <!-- 5th product-->
+              <div class="col-sm Phones-top" id="product2">
+                <img src="/assert/Group 21@2x.png" class="image" />
+              </div>
+              <div class="col-sm phones-bottom">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p class="phone-pixel">Pixel 6</p>
+                  </div>
+                  <div class="col-sm-6"><p class="dollar hide">$ 699</p></div>
+                </div>
+                <div class="row hover-cont">
+                  <div class="col-sm-6 hide">
+                    <p class="text">Smart</p>
+                  </div>
+                  <div class="col-sm-6 hide">
+                    <div class="stars">
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star-half star"></li>
+                      <li class="rate-point">&#8333;1.2k&#8334;</li>
+                    </div>
+                  </div>
+                  <div class="col hover-part view">
+                    <button
+                      type="button"
+                      class="view-link"
+                      data-bs-toggle="modal"
+                      data-bs-target="#landscapeModal"
+                    >
+                      View Product
+                    </button>
+                    <div class="col-sm-12 buy">
+                      <button
+                        class="buy-btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#addresPixcel"
+                      >
+                        Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md col-sm-3 product-card hoverproduct">
+              <!-- 6th product-->
+              <div class="col-sm Phones-top" id="product1">
+                <img src="/assert/Mask Group 12.png" class="image" />
+              </div>
+              <div class="col-sm phones-bottom">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p class="phone-pixel">Pixel 5</p>
+                  </div>
+                  <div class="col-sm-6"><p class="dollar hide">$ 499</p></div>
+                </div>
+                <div class="row hover-cont">
+                  <div class="col-sm-6 hide">
+                    <p class="text">helpful.</p>
+                  </div>
+                  <div class="col-sm-6 hide">
+                    <div class="stars">
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star-half star"></li>
+                      <li class="rate-point">&#8333;1.2k&#8334;</li>
+                    </div>
+                  </div>
+                  <div class="col hover-part view">
+                    <button
+                      type="button"
+                      class="view-link"
+                      data-bs-toggle="modal"
+                      data-bs-target="#potriateModal"
+                    >
+                      View Product
+                    </button>
+                    <div class="col buy">
+                      <button
+                        class="buy-btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#addresPixcel"
+                      >
+                        Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-4 col-md col-sm-3 product-card hoverproduct">
+              <!-- 7th product-->
+              <div class="col-sm Phones-top" id="product1">
+                <img src="/assert/Mask Group 12.png" class="image" />
+              </div>
+              <div class="col-sm phones-bottom">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p class="phone-pixel">Pixel 5</p>
+                  </div>
+                  <div class="col-sm-6"><p class="dollar hide">$ 499</p></div>
+                </div>
+                <div class="row hover-cont">
+                  <div class="col-sm-6 hide">
+                    <p class="text">Smart, powerful, helpful.</p>
+                  </div>
+                  <div class="col-sm-6 hide">
+                    <div class="stars">
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star-half star"></li>
+                      <li class="rate-point">&#8333;1.2k&#8334;</li>
+                    </div>
+                  </div>
+                  <div class="col hover-part view">
+                    <button
+                      type="button"
+                      class="view-link"
+                      data-bs-toggle="modal"
+                      data-bs-target="#potriateModal"
+                    >
+                      View Product
+                    </button>
+                    <div class="col buy">
+                      <button
+                        class="buy-btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#addresPixcel"
+                      >
+                        Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md col-sm-3 product-card hoverproduct">
+              <!-- 8th product-->
+              <div class="col-sm Phones-top" id="product1">
+                <img src="/assert/Group 21@2x.png" class="image" />
+              </div>
+              <div class="col-sm phones-bottom">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p class="phone-pixel">Pixel 6</p>
+                  </div>
+                  <div class="col-sm-6"><p class="dollar hide">$ 699</p></div>
+                </div>
+                <div class="row hover-cont">
+                  <div class="col-sm-6 hide">
+                    <p class="text">Smart, powerful</p>
+                  </div>
+                  <div class="col-sm-6 hide">
+                    <div class="stars">
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star-half star"></li>
+                      <li class="rate-point">&#8333;1.2k&#8334;</li>
+                    </div>
+                  </div>
+                  <div class="col hover-part view">
+                    <button
+                      type="button"
+                      class="view-link"
+                      data-bs-toggle="modal"
+                      data-bs-target="#landscapeModal"
+                    >
+                      View Product
+                    </button>
+                    <div class="col-sm-12 buy">
+                      <button
+                        class="buy-btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#addresPixcel"
+                      >
+                        Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md col-sm-3 product-card hoverproduct">
+              <!-- 9th product-->
+              <div class="col-sm Phones-top" id="product3">
+                <img src="/assert/pixel6.jpg" class="image" />
+              </div>
+              <div class="col-sm phones-bottom">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p class="phone-pixel">Pixel 6 Pro</p>
+                  </div>
+                  <div class="col-sm-6"><p class="dollar hide">$ 699</p></div>
+                </div>
+                <div class="row hover-cont">
+                  <div class="col-sm-6 hide">
+                    <p class="text">Smart, powerful</p>
+                  </div>
+                  <div class="col-sm-6 hide">
+                    <div class="stars">
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star star"></li>
+                      <li class="fa fa-star-half star"></li>
+                      <li class="rate-point">&#8333;1.2k&#8334;</li>
+                    </div>
+                  </div>
+                  <div class="col hover-part view">
+                    <a href="" class="view-link">View Product</a>
+                    <div class="col-sm-12 buy">
+                      <button
+                        class="buy-btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#addresPixcel"
+                      >
+                        Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4 foot">
+        <div > 
+
+          <img src="/assert/icons8-multiple-stars.svg" class="img-star" />
+        </div>
+        <p class="end">Product end here</p>
+        <div>
+
+          <img src="/assert/icons8-multiple-stars (1).svg" class="img-star" />
+        </div>
+      </div>
+      <div class="col-sm-4"></div>
+    </div>
+    <div class="container footer">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="foot-text">
+            <p>© 2007-2022 Google Inc</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="row">
+            <div class="col-sm foot-text">
+              <p>Terms & Conditions</p>
+            </div>
+            <div class="col-sm foot-text">
+              <p>Privacy</p>
+            </div>
+            <div class="col-sm foot-text">
+              <p>Career</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Potriate -->
+    <div
+      class="modal fade"
+      id="potriateModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Pixcel 5</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="">
+              <div class="row p-top">
+                <div class="col-2 image-pm">
+                  <img src="/assert/Group 3741.svg" class="arrow" />
+                </div>
+                <div class="col-8">
+                  <img src="/assert/Mask Group 12.png" class="product-image" />
+                </div>
+                <div class="col-2">
+                  <img src="/assert/Group 3740.svg" class="arrow" />
+                </div>
+              </div>
+              <div class="container Product-detail-p">
+                <div class="row">
+                  <!-- colors-->
+                  <div class="row">
+                    <div class="col-sm-2 title">
+                      <p class="T-title">Color</p>
+                    </div>
+                    <div class="col-sm disciption-p">
+                      <div class="color">
+                        <li class="color-circle" id="black"></li>
+                        <li class="color-text">Black</li>
+                      </div>
+                      <div class="color">
+                        <li class="color-circle" id="white"></li>
+                        <li class="color-text">white</li>
+                      </div>
+                      <div class="color">
+                        <li class="color-circle" id="blue"></li>
+                        <li class="color-text">Blue</li>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Display-->
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="T-title">Display</p>
+                    </div>
+                    <div class="col-sm display-condent">
+                      <p class="p-text">
+                        Full-screen 6.1-inch (156 mm)1 display, up to 60 Hz
+                      </p>
+                      <p class="p-text">20:9 aspect ratio</p>
+                      <p class="p-text">
+                        Corning® Gorilla® Glass 3™ cover glass
+                      </p>
+                      <p class="p-text">
+                        Always-on display with At a Glance and Now Playing
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <!-- Dimention-->
+                    <div class="col-sm-3 title">
+                      <p class="T-title">Dimension & Weight</p>
+                    </div>
+                    <div class="col-sm display-condent">
+                      <p class="p-text">
+                        6.0 height x 2.8 width x 0.35 depth (in)
+                      </p>
+                      <p class="p-text">
+                        152.2 height x 71.8 width x 8.9 depth (mm)
+                      </p>
+                      <p class="p-text">6.3 oz</p>
+                      <p class="p-text">178 g</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <!-- Battery-->
+                    <div class="col-sm-3 title">
+                      <p class="T-title">Battery & Charging</p>
+                    </div>
+                    <div class="col-sm display-condent">
+                      <p class="p-text">
+                        Corning® Gorilla® Glass 3™ cover glass
+                      </p>
+                      <p class="p-text">
+                        Always-on display with At a Glance and Now Playing
+                      </p>
+                      <p class="p-text">Tipical 4410 mAh</p>
+                      <p class="p-text">Fast Charging</p>
+                    </div>
+                    <div class="row memory">
+                      <!-- memory-->
+                      <div class="col-sm-3 title">
+                        <p class="T-title">Memory</p>
+                      </div>
+                      <div class="col-sm condent">
+                        <p class="p-text">6 GB LPDDR5 RAM</p>
+                      </div>
+                    </div>
+
+                    <div class="row memory">
+                      <!-- storage-->
+                      <div class="col-sm-3 title">
+                        <p class="T-title">Storage</p>
+                      </div>
+                      <div class="col-sm condent">
+                        <p class="p-text">128 GB Storage UFS 3.1 storage</p>
+                      </div>
+                    </div>
+
+                    <div class="row memory">
+                      <!-- processor-->
+                      <div class="col-sm-3 title">
+                        <p class="T-title">processor</p>
+                      </div>
+                      <div class="col-sm condent">
+                        <p class="p-text">
+                          Google Tensor Titan M2 security coprocessor
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <!-- Bottom -->
+                <div class="row stricy">
+                  <div class="col p-rating">
+                    <p class="dollar-p">$699</p>
+                    <div class="p-li">
+                      <li class="fa fa-star"></li>
+                      <li class="fa fa-star"></li>
+                      <li class="fa fa-star"></li>
+                      <li class="fa fa-star-half"></li>
+                      <li class="rate-point">&#8333;1.2k&#8334;</li>
+                    </div>
+                    <button
+                      class="buy-btn-p"
+                      data-bs-toggle="modal"
+                      data-bs-target="#addresPixcel"
+                      type="button"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Modal Landscape -->
+    <div
+      class="modal fade"
+      id="landscapeModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- header-->
+            <h5 class="modal-title">Pixcel 6</h5>
+            <button
+              type="button"
+              class="btn-close lands-c"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <!----body-->
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <img src="/assert/Group 3741.svg" class="l-arrow" />
+                  </div>
+                  <div class="col-sm-7">
+                    <img src="/assert/Group 21@2x.png" class="l-image" />
+                  </div>
+                  <div class="col-sm-2">
+                    <img src="/assert/Group 3740.svg" class="l-arrow" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 lands-detail">
+                <div class="row stricy">
+                  <div class="col-sm lands-rating">
+                    <li class="lands-name">Pixcel 6</li>
+                    <li class="lands-dollar">$699</li>
+                    <div class="lands-stars">
+                      <li class="fa fa-star"></li>
+                      <li class="fa fa-star"></li>
+                      <li class="fa fa-star"></li>
+                      <li class="fa fa-star-half"></li>
+                      <li class="lands-point">&#8333;1.2k&#8334;</li>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="lands-button">
+                      <button
+                        class="lands-buy"
+                        data-bs-toggle="modal"
+                        data-bs-target="#addresPixcel"
+                        type="button"
+                      >
+                        Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-all">
+                  <div class="row">
+                    <!-- colors-->
+                    <div class="col-sm-2 title">
+                      <p class="T-title">Color</p>
+                    </div>
+                    <div class="col-sm disciption">
+                      <div class="color">
+                        <li class="color-circle" id="black"></li>
+                        <li class="color-text">Black</li>
+                      </div>
+                      <div class="color">
+                        <li class="color-circle" id="white"></li>
+                        <li class="color-text">white</li>
+                      </div>
+                      <div class="color">
+                        <li class="color-circle" id="blue"></li>
+                        <li class="color-text">Blue</li>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <!-- Display-->
+                      <div class="col-sm-2 title">
+                        <p class="T-title">Display</p>
+                      </div>
+                      <div class="col-sm display-condent">
+                        <p class="d-text">
+                          Full-screen 6.1-inch (156 mm)1 display, up to 60 Hz
+                        </p>
+                        <p class="d-text">20:9 aspect ratio</p>
+                        <p class="d-text">
+                          Corning® Gorilla® Glass 3™ cover glass
+                        </p>
+                        <p class="d-text">
+                          Always-on display with At a Glance and Now Playing
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col lnd-g">.</div>
+                  <div class="row">
+                    <!-- Dimention-->
+                    <div class="col-sm-2 title">
+                      <p class="T-title">Dimension & Weight</p>
+                    </div>
+                    <div class="col-sm display-condent">
+                      <p class="d-text">
+                        6.0 height x 2.8 width x 0.35 depth (in)
+                      </p>
+                      <p class="d-text">
+                        152.2 height x 71.8 width x 8.9 depth (mm)
+                      </p>
+                      <p class="d-text">6.3 oz</p>
+                      <p class="d-text">178 g</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <!-- Battery-->
+                    <div class="col-sm-2 title">
+                      <p class="T-title">Battery & Charging</p>
+                    </div>
+                    <div class="col-sm display-condent">
+                      <p class="d-text">
+                        Corning® Gorilla® Glass 3™ cover glass
+                      </p>
+                      <p class="d-text">
+                        Always-on display with At a Glance and Now Playing
+                      </p>
+                      <p class="d-text">Tipical 4410 mAh</p>
+                      <p class="d-text">Fast Charging</p>
+                    </div>
+                  </div>
+
+                  <div class="row memory">
+                    <!-- memory-->
+                    <div class="col-sm-2 title">
+                      <p class="T-title">Memory</p>
+                    </div>
+                    <div class="col-sm condent">
+                      <p class="d-text">6 GB LPDDR5 RAM</p>
+                    </div>
+                  </div>
+
+                  <div class="row memory">
+                    <!-- storage-->
+                    <div class="col-sm-2 title">
+                      <p class="T-title">Storage</p>
+                    </div>
+                    <div class="col-sm condent">
+                      <p class="d-text">128 GB Storage UFS 3.1 storage</p>
+                    </div>
+                  </div>
+
+                  <div class="row memory">
+                    <!-- processor-->
+                    <div class="col-sm-2 title">
+                      <p class="T-title">processor</p>
+                    </div>
+                    <div class="col-sm condent">
+                      <p class="d-text">
+                        Google Tensor Titan M2 security coprocessor
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Address Pixel-->
+    <div
+      class="modal fade"
+      id="addresPixcel"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="pixcel-name">
+              <p class="name">Buy Pixcel 5</p>
+            </div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-sm-8">
+                <div class="pixcel-detail">
+                  <section id="ad-addrss">
+                    <div class="a-image">
+                      <img src="/assert/Mask Group 12.png" class="ad-snap" />
+                    </div>
+                    <div class="">
+                      <p class="name-px">Pixel 5</p>
+                      <p class="name-text">SKU12345-12</p>
+                    </div>
+                    <div class="a-text">
+                      <p class="">Black | 128GB</p>
+                    </div>
+                    <div class="qty">
+                      <p>1 Qty</p>
+                    </div>
+                    <div class="a-dollar">
+                      <p>$499.00</p>
+                    </div>
+                  </section>
+                </div>
+                <div class="col add-address" id="add">
+                  <div class="row">
+                    <div class="col-sm add">
+                      <button type="button" class="add-btn">ADD ADDRESS</button>
+                    </div>
+                    <div class="col-sm-12 save">
+                      <button type="button" class="save-btn">
+                        SAVE ADDRESS
+                      </button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="name" class="form-label">Name</label>
+                      <input
+                        type="text"
+                        class="form-control bg-input"
+                        id="input"
+                        value="Henry Dyson J"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label"
+                        >Contact Number</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control bg-input"
+                        id="input"
+                        value="7094337921"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label"
+                        >Address</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control bg-input"
+                        id="input"
+                        value="no-22,north street, kullanjavadi,Cuddalore, India, 6007301"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm ps-name">
+                      <label for="Email" class="form-lable">City</label>
+                      <div>
+                        <select class="col-sm-12" id="slect-lab">
+                          <div class="select">
+                            <option value="volvo">Select City</option>
+                            <option value="saab">Chennai</option>
+                            <option value="fiat">Cuddalore</option>
+                            <option value="audi">Thanjavur</option>
+                            <option value="audi">Tiruchy</option>
+                          </div>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-sm ps-number">
+                      <label for="Email" class="form-lable">Cuntry</label>
+                      <div>
+                        <select class="col-sm-12" id="slect-lab">
+                          <option value="volvo">Select Cuntry</option>
+                          <option value="saab">India</option>
+                          <option value="fiat">China</option>
+                          <option value="audi">America</option>
+                          <option value="audi">Italy</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--add-confom -->
+                <section id="ad-saveAdd" class="ad-detail">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <p class="add-name">Henry Dyson J</p>
+                      <p class="a-text">+91 709337921</p>
+                    </div>
+                    <div class="col-sm-4">
+                      <p class="a-text">no-22,north street, kullanjavadi,</p>
+                      <p class="a-text">Cuddalore, India, 6007301</p>
+                    </div>
+                    <div class="col-sm-3">
+                      <button class="edit">Edit</button>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div class="col-sm-4">
+                <div class="invoice-summary">
+                  <div class="invice-text">
+                    <p class="in-text">INVOICE SUMMARY</p>
+                    <div class="in-text">
+                      <div class="row">
+                        <div class="col bill-name">Actual amount</div>
+                        <div class="col bill-amt">$559.00</div>
+                      </div>
+                      <div class="row">
+                        <div class="col bill-name">Discount</div>
+                        <div class="col bill-amt">$60.00</div>
+                      </div>
+                      <div class="row">
+                        <div class="col bill-name">Billing amount</div>
+                        <div class="col bill-amt">$499.00</div>
+                      </div>
+                      <div class="row">
+                        <div class="col bill-amt">Billing amount</div>
+                        <div class="col bill-amt">$499.00</div>
+                      </div>
+                    </div>
+                    <div class="button-a col-sm">
+                      <button class="pay-btn">Pay $ 499.00</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Scripts-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
