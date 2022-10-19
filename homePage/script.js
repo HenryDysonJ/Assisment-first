@@ -17,14 +17,12 @@ btn.addEventListener("click", function () {
   }
 });
 
+// add-address modal add-edit button
 
-// add-address modal add-edit button 
-
-const edit =document.getElementById("ad-saveAdd");
-const save = document.getElementById("add")
-console.log(edit,"gg");
-console.log(add,"uiu");
-
+const edit = document.getElementById("ad-saveAdd");
+const save = document.getElementById("add");
+console.log(edit, "gg");
+console.log(add, "uiu");
 
 edit.addEventListener("click", function () {
   if (edit) {
@@ -39,3 +37,4 @@ save.addEventListener("click", function () {
     edit.style.display = "block";
   }
 });
+

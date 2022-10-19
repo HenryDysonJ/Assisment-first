@@ -27,6 +27,7 @@
   border: 1px solid #d1d2d4;
   border-radius: 4px;
   justify-content: space-around;
+  padding: 3px;
 }
 .add-address {
   max-height: 100%;
@@ -41,7 +42,7 @@
 .image {
   text-align: center;
 }
-.ad-snap{
+.ad-snap {
   height: 40px;
   width: 40px;
 }
@@ -51,41 +52,41 @@
   font-weight: 600;
 }
 .name-text {
-  color: #B3C1C8;
+  color: #b3c1c8;
   font-size: 12px;
 }
-.a-text{
-  color: #B3C1C8;
+.a-text {
+  color: #b3c1c8;
   font-size: 12px;
 }
-.qty{
-  color:#B3C1C8;
+.qty {
+  color: #b3c1c8;
   font-size: 12px;
 }
-.add-name{
- color: #023047;
- font-size: 16px;
- font-weight: 600;
-
-}
-#ad-saveAdd{
-  display: none;
-}
-.edit{
+.add-name {
+  color: #023047;
   font-size: 16px;
-  color: #FB8500;
+  font-weight: 600;
+}
+#ad-saveAdd {
+  display: none;
+  padding: 5px;
+}
+.edit {
+  font-size: 16px;
+  color: #fb8500;
   font-weight: 600;
   border: none;
   background-color: #ffff;
   float: right;
   margin-top: 20px;
 }
-.ad-detail{
-  border: 1px solid #b3c1c8 ;
+.ad-detail {
+  border: 1px solid #b3c1c8;
   border-radius: 4px;
   margin-top: 20px;
 }
-.a-dollar{
+.a-dollar {
   color: #023047;
   font-size: 12px;
   font-weight: 550;
@@ -118,12 +119,11 @@ section {
   margin-top: -20px;
 }
 
-
 #slect-lab {
   padding: 8px;
   border-color: #e9ecef;
   border-radius: 2px;
-  color: #b3c1c8; 
+  color: #b3c1c8;
   font-size: 12px;
 }
 label {
@@ -134,11 +134,11 @@ label {
 .bg-input:hover {
   background-color: #e2f0e5;
 }
-#input{
+#input {
   font-size: 12px;
   color: #4e6e7e;
 }
-#input:focus{
+#input:focus {
   color: #023047;
 }
 
@@ -178,4 +178,5 @@ label {
   border: none;
   background-color: #219ebc;
   padding: 1vh;
+  color: #ffffff;
 }

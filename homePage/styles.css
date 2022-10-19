@@ -1,20 +1,39 @@
 * {
   font: normal normal Montserrat;
 }
-.google-logo {
+/* dropdown*/
+#collapsibleNavbar {
+  text-align: center;
+}
+.nav-item {
+  color: #d3d5d6;
+  font-size: 16px;
+}
+
+/*----Navs bar--- */
+.nav-logo {
   position: relative;
+  display: inline-flex;
+  list-style: none;
+}
+.navbar-nav {
+  margin-left: 15px;
+  padding: 5px;
+}
+.prod-nav .nav-item {
+  width: 100%;
+  line-height: 5px;
 }
 .navbar {
   background-color: #ffffff;
-  border-bottom: 1px solid #d3d7d9;
+  border-bottom: 1px solid #e9ebec;
+  position: fixed;
 }
 .logo {
   height: 32px;
   width: 32px;
   margin-left: 30px;
 }
-
-/*----Navs bar--- */
 .nav-item {
   font-size: 15px;
   text-align: left;
@@ -23,8 +42,9 @@
   opacity: 1;
   height: 18px;
   width: 89px;
+  padding: 2px;
 }
-.prod {
+.prod-nav {
   font-size: 15px;
   text-align: left;
   letter-spacing: 0px;
@@ -43,7 +63,7 @@
   color: #219ebc;
   font-size: 14px;
   font-weight: 600;
-  height: 42px;
+  height: 45px;
   width: 150px;
 }
 #photo {
@@ -74,28 +94,15 @@
   top: 10px;
   right: 20px;
 }
-@media only screen and (max-width: 800px) {
-  .Phones-top {
-    max-height: 270px;
-    max-width: 200px;
-    background-color: #e3f7f4;
-    text-align: center;
-  }
-  .filter {
-    max-height: 659px;
-    max-width: 100px;
-    list-style: none;
-    overflow: hidden;
-    margin-top: 1rem;
-  }
+.menu-btn {
+  display: none;
 }
+
 /* -----Filter side------*/
 .filter {
-  max-height: 659px;
-  max-width: 299px;
   list-style: none;
   overflow: hidden;
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 .fix {
   position: fixed;
@@ -116,24 +123,25 @@
 }
 .line {
   color: #9aacb5;
+  display: flex;
 }
-.fil-fix{
-   position: sticky;
+.fil-fix {
+  position: sticky;
 }
 
 /*------ phone card -----*/
-.phone-card{
-  margin-top: 2rem !important; 
+.card-top {
+  margin-top: 6rem;
 }
 .Phones-top {
-  max-height: 220px;
-  max-width: 300px;
+  max-height: 230px;
   background-color: #e3f7f4;
   text-align: center;
 }
 .phones-bottom {
-  max-height: 60px;
+  max-height: 65px;
   max-width: 300px;
+  line-height: 14x;
 }
 #product1 {
   background-color: #e3f7f4;
@@ -164,32 +172,31 @@
   color: #023047;
   float: right;
   font-weight: 490;
-  margin-top: -25px;
 }
 .text {
-  max-height: 15px;
   font-size: 12px;
   color: #b3c1c8;
+  margin-top: -5px;
 }
 
 .rate-point {
-  font-size: 10px;
-  max-height: 30px;
+  font-size: 12px;
   color: #b3c1c8;
   list-style: none;
-  margin-top: -4px;
+  /* margin-top: -5px; */
 }
 .stars {
-  font-size: 11px;
+  font-size: 12px;
   color: #ffb703;
   display: inline-flex;
   float: right;
 }
+
 .hover-cont {
   position: relative;
   padding: 0px;
   margin-left: 0px;
-  margin-top: -5px;
+  margin-top: -6px;
 }
 .hover-part {
   position: absolute;
@@ -227,8 +234,15 @@
 .view {
   display: none;
 }
+.star-rate {
+  float: right;
+}
 .hide {
   display: inline-block;
+}
+.hoverproduct {
+  margin-bottom: 26px;
+  column-gap: 1px;
 }
 .hoverproduct:hover .hide {
   background-color: #219ebc;
@@ -239,8 +253,16 @@
 }
 .foot {
   display: inline-flex;
-  margin-top: 5rem;
-  margin-left: 16rem;
+  text-align: center;
+  padding: 1.5rem;
+  justify-content: center;
+}
+.foot-prodect {
+  text-align: center;
+  padding: 30px;
+}
+.star-icon {
+  font-size: 5px;
 }
 .end-prod {
   list-style: none;
@@ -249,20 +271,18 @@
   margin-top: 10px;
 }
 .end {
-  color: #ccd6da;
-  font-size: 16px;
-  margin-top: 10px;
+  color: #b3c1c8;
+  font-size: 18px;
 }
 .img-star {
-  max-height: 16px;
-  max-width: 18px;
-    margin-top: 10px;
+  max-height: 20px;
 }
 .footer {
-  border-top: 1.3px solid #d3d5d6;
+  border-top: 1.3px solid #e7e9ea;
+  display: inline-flex;
+  padding: 10px;
 }
 .foot-text {
-  max-height: 15px;
   font-size: 12px;
   color: #b3c1c8;
 }
@@ -277,4 +297,27 @@ input[type="checkbox"] {
   accent-color: #219ebc;
 }
 
+/* scrol*/
+.card-fix {
+  position: static;
+}
+.card-top {
+  height: 100vh;
+  overflow-y: scroll;
+}
+.card-top::-webkit-scrollbar {
+  display: none;
+}
 /*===============*/
+@media only screen and (max-width: 768px) {
+  .menu-btn {
+    display: block;
+    display: flex;
+    height: 32px;
+    width: 32px;
+    background-color: #ffffff;
+    color: #9aacb5;
+  }
+}
+@media only screen and (max-width: 992px) {
+}

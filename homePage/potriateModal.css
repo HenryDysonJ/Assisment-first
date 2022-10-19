@@ -56,7 +56,7 @@
   margin-top: -33px;
 }
 /*scrol*/
-.stricy {
+.card-photo {
   position: static;
 }
 .Product-detail-p {
@@ -110,7 +110,6 @@
   letter-spacing: 0px;
   line-height: 12px;
   color: #4e6e7e;
-  
 }
 .display-condent p {
   line-height: 12px;
@@ -118,5 +117,4 @@
 .p-text {
   font-size: 14px;
   color: #4e6e7e;
-
 }
