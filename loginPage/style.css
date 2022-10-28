@@ -1,5 +1,5 @@
 * {
-  font: normal normal Montserrat;
+  font: normal normal  Montserrat;
 }
 .login-image {
   background-color: #f9fbfe;
@@ -58,14 +58,12 @@
   font: normal normal 800 24px/29px Montserrat;
   letter-spacing: 0.14px;
   color: #091b29;
-  opacity: 1;
 }
 .sub-title {
   text-align: left;
   font: normal normal medium 18px/22px Montserrat;
   letter-spacing: 0.11px;
   color: #bbbbbb;
-  opacity: 1;
 }
 .form-lable {
   color: rgba(152, 160, 172, 1);
@@ -96,6 +94,7 @@
   text-align: center;
   margin-top: 4vh;
   padding: 7px;
+  max-width: 100%;
 }
 .create {
   font-size: 14px;

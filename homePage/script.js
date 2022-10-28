@@ -20,18 +20,19 @@ btn.addEventListener("click", function () {
 // add-address modal add-edit button
 
 const edit = document.getElementById("ad-saveAdd");
-const save = document.getElementById("add");
-console.log(edit, "gg");
-console.log(add, "uiu");
+const editBtn = document.getElementById("save-edit");
 
-edit.addEventListener("click", function () {
+const save = document.getElementById("save-add");
+const saveBtn = document.getElementById("save-address");
+
+editBtn.addEventListener("click", function () {
   if (edit) {
     edit.style.display = "none";
-    add.style.display = "block";
+    save.style.display = "block";
   }
 });
 
-save.addEventListener("click", function () {
+saveBtn.addEventListener("click", function () {
   if (save) {
     save.style.display = "none";
     edit.style.display = "block";

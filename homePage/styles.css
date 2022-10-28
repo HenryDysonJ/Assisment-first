@@ -134,7 +134,7 @@
   margin-top: 6rem;
 }
 .Phones-top {
-  max-height: 230px;
+  height: 230px;
   background-color: #e3f7f4;
   text-align: center;
 }
@@ -156,6 +156,7 @@
   padding: 15px;
 }
 .image {
+  margin-top: 10px;
   max-height: 157px;
   max-width: 125px;
 }
@@ -183,7 +184,7 @@
   font-size: 12px;
   color: #b3c1c8;
   list-style: none;
-  /* margin-top: -5px; */
+  margin-top: -5px;
 }
 .stars {
   font-size: 12px;
@@ -228,9 +229,11 @@
   border-radius: 3px;
   float: right;
   margin-top: -25px;
-  padding: 1vh;
+  padding: 9px 15px;
+  max-width: 90px;
 }
 
+/*hover part*/
 .view {
   display: none;
 }
@@ -251,6 +254,8 @@
 .hoverproduct:hover .view {
   display: inline-block;
 }
+
+/*footer*/
 .foot {
   display: inline-flex;
   text-align: center;
@@ -318,6 +323,5 @@ input[type="checkbox"] {
     background-color: #ffffff;
     color: #9aacb5;
   }
-}
-@media only screen and (max-width: 992px) {
+
 }
