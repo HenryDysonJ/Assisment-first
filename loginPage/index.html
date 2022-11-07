@@ -46,60 +46,64 @@
               <p class="l-title">Welcome to Google Store!</p>
               <p class="sub-title">Register your account</p>
             </div>
-            <div class="col-sm-10">
-              <div class="lab-box">
-                <label for="userName" class="form-lable">Username</label>
-                <input
-                  type="text"
-                  class="login-input"
-                  id="inputUser"
-                  value=""
-                />
-              </div>
-              <div class="lab-box">
-                <label for="Email" class="form-lable">Email ID</label>
-                <input type="email" class="login-input" id="inputEmail" />
-              </div>
-              <div class="lab-box pass">
-                <label for="lname" class="form-lable">Create Password</label>
-                <i
-                  class="fa-solid fa-eye visib"
-                  onclick="visiblePassword()"
-                  id="eye1"
-                ></i>
-                <input
-                  type="password"
-                  class="login-input"
-                  id="inputPassword"
-                  name="password"
-                />
-              </div>
-              <div class="lab-box pass">
-                <label for="lname" class="form-lable">Retype Password</label>
-                <i
-                  class="fa-solid fa-eye visib"
-                  onclick="visiblepassword()"
-                  id="eye"
-                ></i>
+            <form name="log1" onsubmit="validate(event)">
+              <div class="col-sm-10">
+                <div class="lab-box">
+                  <label for="userName" class="form-lable">Username</label>
+                  <input
+                    type="text"
+                    class="login-input"
+                    name="userName"
+                    id="inputUser"
+                    value=""
+                  />
+                  <span id="userError" class="error-msg"></span>
+                </div>
+                <div class="lab-box">
+                  <label for="Email" class="form-lable">Email ID</label>
+                  <input type="text" class="login-input" id="inputEmail" />
+                  <span id="emailError" class="error-msg"> </span>
+                </div>
+                <div class="lab-box pass">
+                  <label for="lname" class="form-lable">Create Password</label>
+                  <i
+                    class="fa-solid fa-eye visib"
+                    onclick="visiblePassword()"
+                    id="eye1"
+                  ></i>
+                  <input
+                    type="password"
+                    class="login-input"
+                    id="inputNPassword"
+                    name="password"
+                    value=""
+                  />
+                  <span id="newPswError" class="error-msg"> </span>
+                </div>
+                <div class="lab-box pass">
+                  <label for="lname" class="form-lable">Retype Password</label>
+                  <i
+                    class="fa-solid fa-eye visib"
+                    onclick="visiblepassword()"
+                    id="eye"
+                  ></i>
 
-                <input
-                  type="password"
-                  name="password"
-                  class="login-input"
-                  id="inputapssword"
-                />
-              </div>
+                  <input
+                    type="password"
+                    name="password"
+                    class="login-input"
+                    id="inputCPassword"
+                  />
+                  <span id="cpswError" class="error-msg"> </span>
+                </div>
 
-              <div class="lab-box">
-                <a href="../homePage/index.html">
+                <div class="lab-box">
                   <div class="btns">
-
                     <button type="submit" class="create">Create Account</button>
                   </div>
-                  </a>
-              </div>
                 </div>
-            </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
